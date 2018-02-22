@@ -1,0 +1,92 @@
+body {
+    padding: 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+body, button, li {
+    font-family: 'Share Tech Mono', monospace;
+    }
+
+li {
+    list-style-type: none;
+}
+
+/* Complete buttons */
+.completeButton {
+	background: #00b627;
+	border-radius:6px;
+	border:1px solid #006b17;
+	display:inline-block;
+	cursor:pointer;
+	color:#ffffff;
+	font-family: 'Share Tech Mono', monospace;
+	font-size:15px;
+	font-weight:bold;
+	padding:6px 24px;
+	text-decoration:none;
+}
+
+.completeButton:hover {
+	background-color:#006b17;
+}
+
+.completeButton:active {
+    position:relative;
+	top:1px;
+}
+/**/
+
+/* Delete buttons */
+.delButton, .clear {
+	background: #f00c0c;
+	border-radius:6px;
+	border:1px solid #c62d1f;
+	display:inline-block;
+	cursor:pointer;
+	color:#ffffff;
+	font-family: 'Share Tech Mono', monospace;
+	font-size:15px;
+	font-weight:bold;
+	padding:6px 24px;
+	text-decoration:none;
+}
+
+.delButton:hover, .clear:hover {
+	background-color:#c62d1f;
+}
+
+.delButton:active, .clear:active {
+    position:relative;
+	top:1px;
+}
+
+/**/
+
+.sortText {
+    background-color: dimgray;
+    display: grid;
+    grid-template-columns: 50% 50%;
+    grid-template-rows: 50% 50%;
+    justify-content: space-between;
+    max-width: 1500px;
+}
+
+.active h1, i {
+    color: white;
+    background: #f00c0c;
+    padding: 15px;
+    margin-top: 0;
+}
+
+.completed h1, i {
+    color: white;
+    background: #f00c0c;
+    padding: 15px;
+    margin-top: 0;
+}
+
+p {
+    color: white;
+}
