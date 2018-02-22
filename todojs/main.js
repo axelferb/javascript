@@ -25,7 +25,7 @@ button.addEventListener("click", function () {
             <li id="todo" class="todoitem">
             <p class="todoValue">${input.value}</p>
             <button class="completeButton" id="completeButton">
-            ✔   
+            Done   
             </button>
             <button class="delButton" id="delButton">
             Delete
