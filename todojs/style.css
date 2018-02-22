@@ -1,8 +1,7 @@
 body {
     padding: 50px;
-    display: flex;
-    justify-content: center;
-    align-items: center;
+	padding: 0;
+	margin: 0;
 }
 
 body, button, li {
@@ -69,18 +68,18 @@ li {
     display: grid;
     grid-template-columns: 50% 50%;
     grid-template-rows: 50% 50%;
-    justify-content: space-between;
-    max-width: 1500px;
+	width: 100%;
+	text-align: center;
 }
 
-.active h1, i {
+.active h2, i {
     color: white;
     background: #f00c0c;
     padding: 15px;
     margin-top: 0;
 }
 
-.completed h1, i {
+.completed h2, i {
     color: white;
     background: #f00c0c;
     padding: 15px;
@@ -89,4 +88,18 @@ li {
 
 p {
     color: white;
+}
+
+h1 {
+	text-align: center;
+	color: white;
+	background: linear-gradient(#c62d1f, #f00c0c);
+	margin: 0;
+}
+
+.inputButton {
+	display: flex;
+	justify-content: space-around;
+	align-items: center;
+	background: dimgray;
 }
